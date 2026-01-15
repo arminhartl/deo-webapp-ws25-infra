@@ -17,7 +17,7 @@ spec:
       #- name: ghcr-login-secret
       containers:
       - name: deo-frontend
-        image: ghcr.io/arminhartl/deo-webapp-ws25-frontend:sha256-6ce11445df7bf682e3d56c3b66ae94ef61056a14c52d442cc67864675432e3e8
+        image: ghcr.io/arminhartl/deo-webapp-ws25-frontend:latest
         args: ["--urls", "http://*:2000"]
         ports:
         - containerPort: 2000
